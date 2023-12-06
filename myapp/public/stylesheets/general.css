@@ -1,0 +1,17 @@
+*{
+    font-family: poppins;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+a{
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+a:hover{
+    color: #0033cc;
+    transition: all 100ms;
+}

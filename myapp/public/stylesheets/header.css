@@ -1,0 +1,37 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid grey;
+}
+
+.img-logo{
+    width: auto;
+    height: 50px;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.ul-nav-header{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.nav-header ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.button-checkin{
+    padding: 20px 20px
+}
