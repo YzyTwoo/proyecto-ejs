@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "nombre": "Paris",
+        "imagen": "paris_fa5c2ffd.jpg"
+    },
+
+    {
+        "id": "2",
+        "nombre": "Francia",
+        "imagen": "lomasagua.jpg"
+    },
+
+    {
+        "id": "3",
+        "nombre": "China",
+        "imagen": "china.jpg"
+    },
+
+    {
+        "id": "4",
+        "nombre": "Egipto",
+        "imagen": "egipto.jpeg"
+    },
+
+    {
+        "id": "5",
+        "nombre": "Rumania",
+        "imagen": "rumania.webp"
+    },
+
+    {
+        "id": "6",
+        "nombre": "Turquía",
+        "imagen": "turquia.jpeg"
+    }
+]
