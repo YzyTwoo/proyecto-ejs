@@ -3,17 +3,17 @@
     <%- include('./partials/header.ejs') %>
 
     <main class="main-home-index">
+
       <img class="" src="/images/piramide-paris.jpg" alt="banner-descuento">
       <h1>Conoce tu destino perfecto</h1>
+
       <section class="section-home-index">
 
-        <% destinos.forEach(destinos => { %>
-          <article class="article-home-index">
-            <a href=""><img src="/images/<%= destinos.imagen %>" alt="article-1">
-                <p class="p-article"><%= destinos.nombre %></p>
-              </a>
-          </article>
-        <% }) %>
+        <% destinos.forEach(destino => { %>
+          <a href="detail/<%= destino.id %>">
+            <%- include('./partials/articleDestinos.ejs',{destino})%>
+          </a>
+          <% }) %>
 
 
       </section>

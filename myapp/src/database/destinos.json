@@ -1,37 +1,45 @@
 [
-    {
-        "id": "1",
-        "nombre": "Paris",
-        "imagen": "paris_fa5c2ffd.jpg"
-    },
-
-    {
-        "id": "2",
-        "nombre": "Francia",
-        "imagen": "lomasagua.jpg"
-    },
-
-    {
-        "id": "3",
-        "nombre": "China",
-        "imagen": "china.jpg"
-    },
-
-    {
-        "id": "4",
-        "nombre": "Egipto",
-        "imagen": "egipto.jpeg"
-    },
-
-    {
-        "id": "5",
-        "nombre": "Rumania",
-        "imagen": "rumania.webp"
-    },
-
-    {
-        "id": "6",
-        "nombre": "Turquía",
-        "imagen": "turquia.jpeg"
-    }
+  {
+    "id": "1",
+    "nombre": "Paris",
+    "imagen": "paris_fa5c2ffd.jpg",
+    "precio": "56.999"
+  },
+  {
+    "id": "2",
+    "nombre": "Francia",
+    "imagen": "lomasagua.jpg",
+    "precio": "56.999"
+  },
+  { "id": "3", "nombre": "China", "imagen": "china.jpg", "precio": "56.999" },
+  {
+    "id": "4",
+    "nombre": "Egipto",
+    "imagen": "egipto.jpeg",
+    "precio": "56.999"
+  },
+  {
+    "id": "5",
+    "nombre": "Rumania",
+    "imagen": "rumania.webp",
+    "precio": "56.999"
+  },
+  {
+    "id": "6",
+    "nombre": "Turquía",
+    "imagen": "turquia.jpeg",
+    "precio": "56.999"
+  },
+  {
+    "id": "10",
+    "nombre": "Pakistan",
+    "imagen": "pakistan.jpeg",
+    "precio": "20.000"
+  },
+  {
+    "id": "13",
+    "nombre": "Pakistan",
+    "imagen": "pakistan.jpeg",
+    "precio": "20.000"
+  }
 ]

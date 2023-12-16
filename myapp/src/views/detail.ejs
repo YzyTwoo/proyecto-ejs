@@ -1,0 +1,18 @@
+<%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main class="main-home-index">
+        <h1>DETALLE DE PRODUCTO</h1>
+        <section class="section-home-index">
+
+        <%- include('./partials/articleDestinos.ejs', {title, destino}) %>
+
+        <div>
+            <a href=""><button>Editar</button></a>
+            <a href=""><button>Eliminar</button></a>
+        </div>
+
+        </section>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+</body>

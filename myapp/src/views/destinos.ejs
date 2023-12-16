@@ -1,0 +1,25 @@
+<%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/header.ejs') %>
+
+    <main class="main-home-index">
+
+        <h1>Conoce tu destino ideal</h1>
+
+        <section class="section-home-index">
+
+            <% destinos.forEach(destinos => { %>
+            <article class="article-home-index">
+            <a href=""><img src="/images/<%= destinos.imagen %>" alt="article-1">
+                <p class="p-article"><%= destinos.nombre %></p>
+                <h2 class="p-article">$<%= destinos.precio %></h2>
+                </a>
+            </article>
+            <% }) %>
+
+    </section>
+
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
